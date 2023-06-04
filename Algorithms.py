@@ -23,10 +23,9 @@
 #print(test_result)
 
 #count odd and even numbers
-def count_odd_even(n):
+def count_odds_evens(n):
     odds = 0
     evens = 0
-
     while n != 0:
         current_digit = n % 10
         if current_digit % 2:
@@ -39,4 +38,4 @@ def count_odd_even(n):
 
 
 test_number = 14570 # Odds 1, 5, 7 Evens: 4, 0
-count_odd_even(test_number)
+count_odds_evens(test_number)
